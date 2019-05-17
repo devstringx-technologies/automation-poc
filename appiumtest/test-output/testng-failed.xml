@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="listener.ReportListener"/>
+  </listeners>
+  <test name="demo for POC(failed)">
+    <classes>
+      <class name="tests.IncomeTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addSalaryAsIncomeAndVerifyThem"/>
+          <include name="verifyCategoriesList"/>
+          <include name="verifyIncomePage"/>
+          <include name="setUp"/>
+          <include name="verifySalaryPage"/>
+        </methods>
+      </class> <!-- tests.IncomeTests -->
+    </classes>
+  </test> <!-- demo for POC(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1">
+	<listeners>
+		<listener class-name="listener.ReportListener" />
+	</listeners>
+	<test name="IncomeTest">
+		<classes>
+			<class name="tests.IncomeTests" />
+		</classes>
+	</test>
+
+	<test name="Expense test">
+		<classes>
+			<class name="tests.ExpenseTests" />
+		</classes>
+	</test>
+</suite>

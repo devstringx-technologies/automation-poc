@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="76153" started-at="2019-05-17T08:37:48Z" finished-at="2019-05-17T08:39:04Z">
+    <groups>
+    </groups>
+    <test name="IncomeTest" duration-ms="41098" started-at="2019-05-17T08:37:48Z" finished-at="2019-05-17T08:38:29Z">
+      <class name="tests.IncomeTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.IncomeTests@2344fc66]" name="setUp" is-config="true" duration-ms="25298" started-at="2019-05-17T14:07:48Z" finished-at="2019-05-17T14:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageAfterLunchApp()[pri:1, instance:tests.IncomeTests@2344fc66]" name="verifyHomePageAfterLunchApp" duration-ms="142" started-at="2019-05-17T14:08:13Z" finished-at="2019-05-17T14:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageAfterLunchApp -->
+        <test-method status="PASS" signature="verifyCategoriesList()[pri:2, instance:tests.IncomeTests@2344fc66]" name="verifyCategoriesList" duration-ms="3357" started-at="2019-05-17T14:08:13Z" finished-at="2019-05-17T14:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategoriesList -->
+        <test-method status="PASS" signature="verifyIncomePage()[pri:3, instance:tests.IncomeTests@2344fc66]" name="verifyIncomePage" duration-ms="997" started-at="2019-05-17T14:08:17Z" finished-at="2019-05-17T14:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncomePage -->
+        <test-method status="PASS" signature="verifySalaryPage()[pri:4, instance:tests.IncomeTests@2344fc66]" name="verifySalaryPage" duration-ms="1114" started-at="2019-05-17T14:08:18Z" finished-at="2019-05-17T14:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySalaryPage -->
+        <test-method status="PASS" signature="addSalaryAsIncomeAndVerifyThem()[pri:5, instance:tests.IncomeTests@2344fc66]" name="addSalaryAsIncomeAndVerifyThem" duration-ms="8740" started-at="2019-05-17T14:08:19Z" finished-at="2019-05-17T14:08:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSalaryAsIncomeAndVerifyThem -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.IncomeTests@2344fc66]" name="tearDown" is-config="true" duration-ms="1399" started-at="2019-05-17T14:08:27Z" finished-at="2019-05-17T14:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.IncomeTests -->
+    </test> <!-- IncomeTest -->
+    <test name="Expense test" duration-ms="35024" started-at="2019-05-17T08:38:29Z" finished-at="2019-05-17T08:39:04Z">
+      <class name="tests.ExpenseTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ExpenseTests@6cc4c815]" name="setUp" is-config="true" duration-ms="18745" started-at="2019-05-17T14:08:29Z" finished-at="2019-05-17T14:08:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyExpanseCategories()[pri:1, instance:tests.ExpenseTests@6cc4c815]" name="verifyExpanseCategories" duration-ms="3330" started-at="2019-05-17T14:08:48Z" finished-at="2019-05-17T14:08:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExpanseCategories -->
+        <test-method status="PASS" signature="verifyTravelCategories()[pri:2, instance:tests.ExpenseTests@6cc4c815]" name="verifyTravelCategories" duration-ms="1088" started-at="2019-05-17T14:08:51Z" finished-at="2019-05-17T14:08:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTravelCategories -->
+        <test-method status="PASS" signature="verifyAddExpansePage()[pri:3, instance:tests.ExpenseTests@6cc4c815]" name="verifyAddExpansePage" duration-ms="1179" started-at="2019-05-17T14:08:52Z" finished-at="2019-05-17T14:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddExpansePage -->
+        <test-method status="PASS" signature="addExpanseAsIncomeAndVerifyThem()[pri:4, instance:tests.ExpenseTests@6cc4c815]" name="addExpanseAsIncomeAndVerifyThem" duration-ms="8724" started-at="2019-05-17T14:08:53Z" finished-at="2019-05-17T14:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addExpanseAsIncomeAndVerifyThem -->
+        <test-method status="PASS" signature="verifyHomePageAfterAddedExpense()[pri:5, instance:tests.ExpenseTests@6cc4c815]" name="verifyHomePageAfterAddedExpense" duration-ms="228" started-at="2019-05-17T14:09:02Z" finished-at="2019-05-17T14:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageAfterAddedExpense -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ExpenseTests@6cc4c815]" name="tearDown" is-config="true" duration-ms="1725" started-at="2019-05-17T14:09:02Z" finished-at="2019-05-17T14:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ExpenseTests -->
+    </test> <!-- Expense test -->
+  </suite> <!-- Suite1 -->
+</testng-results>
