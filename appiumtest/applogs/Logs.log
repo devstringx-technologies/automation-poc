@@ -38,3 +38,43 @@
 2019-05-17 14:09:02 INFO  ExpenseTests:88 - addExpanseAsIncomeAndVerifyThem test is finish
 2019-05-17 14:09:02 INFO  ExpenseTests:93 - verifyHomePageAfterAddedExpense test is started
 2019-05-17 14:09:02 INFO  ExpenseTests:97 - verifyHomePageAfterAddedExpense test is finish
+2019-05-18 15:41:15 INFO  ExpenseTests:52 - VerifyAppLaunchesSuccessfully test is started 
+2019-05-18 15:41:16 INFO  ExpenseTests:56 - VerifyAppLaunchesSuccessfully test is finish 
+2019-05-18 15:41:16 INFO  ExpenseTests:61 - verifyCategoriesModal test is started
+2019-05-18 15:41:19 INFO  ExpenseTests:66 - verifyCategoriesModal test is finish
+2019-05-18 15:41:19 INFO  ExpenseTests:71 - VerifyTheIncomeCategoryScreenTitle test is started 
+2019-05-18 15:41:20 INFO  ExpenseTests:76 - VerifyTheIncomeCategoryScreenTitle test is finish 
+2019-05-18 15:41:20 INFO  ExpenseTests:81 - verifyAddIncomeScreen test is started 
+2019-05-18 15:41:21 INFO  ExpenseTests:86 - verifyAddIncomeScreen test is started 
+2019-05-18 15:41:21 INFO  ExpenseTests:92 - verifyAddIncomeFeature test is started 
+2019-05-18 15:41:30 INFO  ExpenseTests:98 - verifyAddIncomeFeature test is finish 
+2019-05-18 15:42:34 INFO  ExpenseTests:62 - verifyTheExpenseCategoryScreenTitle test is started 
+2019-05-18 15:42:38 INFO  ExpenseTests:68 - verifyTheExpenseCategoryScreenTitle test is finish 
+2019-05-18 15:42:38 INFO  ExpenseTests:73 - verifyAddExpenseScreen test is started 
+2019-05-18 15:42:40 INFO  ExpenseTests:78 - verifyAddExpenseScreen test is finish
+2019-05-18 15:42:40 INFO  ExpenseTests:83 - verifyAddExpenseFeature test is started
+2019-05-18 15:42:48 INFO  ExpenseTests:89 - verifyAddExpenseFeature test is finish
+2019-05-18 15:42:48 INFO  ExpenseTests:94 - verifyHomePageAfterAddedExpense test is started
+2019-05-18 15:42:49 INFO  ExpenseTests:98 - verifyHomePageAfterAddedExpense test is finish
+2019-05-18 15:53:50 INFO  ExpenseTests:94 - Select any date range to show data. test is started
+2019-05-18 15:53:51 INFO  ExpenseTests:99 - Select any date range to show data. test is finish
+2019-05-18 15:54:38 INFO  ExpenseTests:52 - VerifyAppLaunchesSuccessfully test is started 
+2019-05-18 15:54:38 INFO  ExpenseTests:56 - VerifyAppLaunchesSuccessfully test is finish 
+2019-05-18 15:54:38 INFO  ExpenseTests:61 - verifyCategoriesModal test is started
+2019-05-18 15:54:41 INFO  ExpenseTests:66 - verifyCategoriesModal test is finish
+2019-05-18 15:54:41 INFO  ExpenseTests:71 - VerifyTheIncomeCategoryScreenTitle test is started 
+2019-05-18 15:54:42 INFO  ExpenseTests:76 - VerifyTheIncomeCategoryScreenTitle test is finish 
+2019-05-18 15:54:42 INFO  ExpenseTests:81 - verifyAddIncomeScreen test is started 
+2019-05-18 15:54:44 INFO  ExpenseTests:86 - verifyAddIncomeScreen test is started 
+2019-05-18 15:54:44 INFO  ExpenseTests:92 - verifyAddIncomeFeature test is started 
+2019-05-18 15:54:52 INFO  ExpenseTests:98 - verifyAddIncomeFeature test is finish 
+2019-05-18 15:55:11 INFO  ExpenseTests:53 - verifyTheExpenseCategoryScreenTitle test is started 
+2019-05-18 15:55:15 INFO  ExpenseTests:59 - verifyTheExpenseCategoryScreenTitle test is finish 
+2019-05-18 15:55:15 INFO  ExpenseTests:64 - verifyAddExpenseScreen test is started 
+2019-05-18 15:55:17 INFO  ExpenseTests:69 - verifyAddExpenseScreen test is finish
+2019-05-18 15:55:17 INFO  ExpenseTests:74 - verifyAddExpenseFeature test is started
+2019-05-18 15:55:25 INFO  ExpenseTests:80 - verifyAddExpenseFeature test is finish
+2019-05-18 15:55:25 INFO  ExpenseTests:85 - verifyHomePageAfterAddedExpense test is started
+2019-05-18 15:55:26 INFO  ExpenseTests:89 - verifyHomePageAfterAddedExpense test is finish
+2019-05-18 15:55:26 INFO  ExpenseTests:94 - Select any date range to show data. test is started
+2019-05-18 15:55:27 INFO  ExpenseTests:99 - Select any date range to show data. test is finish

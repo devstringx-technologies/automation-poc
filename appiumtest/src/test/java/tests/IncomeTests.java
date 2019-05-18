@@ -48,55 +48,54 @@ public class IncomeTests extends DriverClass {
 	}
 	
 	@Test(priority=1)
-	public void verifyHomePageAfterLunchApp() {
-		log.info("verifyHomePageAfterLunchApp test is started ");
+	public void VerifyAppLaunchesSuccessfully() {
+		log.info("VerifyAppLaunchesSuccessfully test is started ");
 		SoftAssert softAssert = new SoftAssert();
 		softAssert.assertTrue(homePage.isHomePageOpened(driver));
 		softAssert.assertAll();
-		log.info("verifyHomePageAfterLunchApp test is finish ");
+		log.info("VerifyAppLaunchesSuccessfully test is finish ");
 	}
 	
 	@Test(priority=2)
-	public void verifyCategoriesList() {
-		log.info("verifyCategoriesList test is started ");
+	public void verifyCategoriesModal() {
+		log.info("verifyCategoriesModal test is started");
 		SoftAssert softAssert = new SoftAssert();
 		homePage.clickOnAddButton(driver);
-		softAssert.assertTrue(homePage.isCategoriesPopupOpened(driver ));
+		softAssert.assertTrue(homePage.isAddIncomeShownInCategoriesModal(driver ));
 		softAssert.assertAll();
-		log.info("verifyCategoriesList test is finish ");
-
+		log.info("verifyCategoriesModal test is finish");
 	}
 	
 	@Test(priority=3)
-	public void verifyIncomePage() {
-		log.info("verifyIncomePage test is started ");
+	public void verifyTheIncomeCategoryScreenTitle() {
+		log.info("VerifyTheIncomeCategoryScreenTitle test is started ");
 		SoftAssert softAssert = new SoftAssert();
 		homePage.clickOnAddIncome(driver);
 		softAssert.assertTrue(homePage.isIncomePageOpened(driver ));
 		softAssert.assertAll();
-		log.info("verifyIncomePage test is finish ");
+		log.info("VerifyTheIncomeCategoryScreenTitle test is finish ");
 	}
 	
 	@Test(priority=4)
-	public void verifySalaryPage() {
-		log.info("verifySalaryPage test is started ");
+	public void verifyAddIncomeScreen() {
+		log.info("verifyAddIncomeScreen test is started ");
 		SoftAssert softAssert = new SoftAssert();
 		homePage.clickOnSalary(driver);
 		softAssert.assertTrue(homePage.isSalaryPageOpened(driver ));
 		softAssert.assertAll();
-		log.info("verifySalaryPage test is started ");
+		log.info("verifyAddIncomeScreen test is started ");
 
 	}
 	
 	@Test(priority=5)
-	public void addSalaryAsIncomeAndVerifyThem() {
-		log.info("addSalaryAsIncomeAndVerifyThem test is started ");
+	public void verifyAddIncomeFeature() {
+		log.info("verifyAddIncomeFeature test is started ");
 		SoftAssert softAssert = new SoftAssert();
-		homePage.addSalary(driver, "30000");
+		homePage.addSalary(driver, investment);
 		homePage.clickOnSaveButton(driver);
-		softAssert.assertTrue(homePage.getAddedSalary(driver).contains("30000"));
+		softAssert.assertTrue(homePage.getAddedSalary(driver).contains(investment));
 		softAssert.assertAll();
-		log.info("addSalaryAsIncomeAndVerifyThem test is finish ");
+		log.info("verifyAddIncomeFeature test is finish ");
 	}
 	
 	@AfterClass

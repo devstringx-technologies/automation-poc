@@ -47,54 +47,56 @@ public class ExpenseTests extends DriverClass {
 		PropertyConfigurator.configure(cs.CONFIG_LOG4J_FILE_PATH);
 	}
 
+
 	@Test(priority = 1)
-	public void verifyExpanseCategories() {
-		log.info("verifyExpanseCategories test is started ");
+	public void verifyTheExpenseCategoryScreenTitle() {
+		log.info("verifyTheExpenseCategoryScreenTitle test is started ");
 		SoftAssert softAssert = new SoftAssert();
 		homePage.clickOnAddButton(driver);
-		softAssert.assertTrue(homePage.isExpanseCategoriesOpened(driver));
-		softAssert.assertAll();
-		log.info("verifyExpanseCategories test is finish ");
-	}
-
-	@Test(priority = 2)
-	public void verifyTravelCategories() {
-		log.info("verifyTravelCategories test is started ");
-		SoftAssert softAssert = new SoftAssert();
 		homePage.clickOnAddExpense(driver);
 		softAssert.assertTrue(homePage.isTravelShownInCategories(driver));
 		softAssert.assertAll();
-		log.info("verifyTravelCategories test is finish ");
+		log.info("verifyTheExpenseCategoryScreenTitle test is finish ");
 	}
 
-	@Test(priority = 3)
-	public void verifyAddExpansePage() {
-		log.info("verifyAddExpansePage test is started ");
+	@Test(priority = 2)
+	public void verifyAddExpenseScreen() {
+		log.info("verifyAddExpenseScreen test is started ");
 		SoftAssert softAssert = new SoftAssert();
 		homePage.selectTravel(driver);
 		softAssert.assertTrue(homePage.isAddExpensePage(driver));
 		softAssert.assertAll();
-		log.info("verifyAddExpansePage test is finish");
+		log.info("verifyAddExpenseScreen test is finish");
 	}
 
-	@Test(priority = 4)
-	public void addExpanseAsIncomeAndVerifyThem() {
-		log.info("addExpanseAsIncomeAndVerifyThem test is started");
+	@Test(priority = 3)
+	public void verifyAddExpenseFeature() {
+		log.info("verifyAddExpenseFeature test is started");
 		SoftAssert softAssert = new SoftAssert();
 		homePage.addAmountInTravelAmount(driver, expense);
 		homePage.clickOnSaveButton(driver);
 		softAssert.assertTrue(homePage.getAddedExpense(driver).contains(expense));
 		softAssert.assertAll();
-		log.info("addExpanseAsIncomeAndVerifyThem test is finish");
+		log.info("verifyAddExpenseFeature test is finish");
 	}
 
-	@Test(priority = 5)
+	@Test(priority = 4)
 	public void verifyHomePageAfterAddedExpense() {
 		log.info("verifyHomePageAfterAddedExpense test is started");
 		SoftAssert softAssert = new SoftAssert();
 		softAssert.assertTrue(homePage.isHomePageOpened(driver));
 		softAssert.assertAll();
 		log.info("verifyHomePageAfterAddedExpense test is finish");
+	}
+	
+	@Test(priority = 5)
+	public void verifySelectAnyDateRangeToShowDataMessage() {
+		log.info("Select any date range to show data. test is started");
+		SoftAssert softAssert = new SoftAssert();
+		homePage.clickOnView(driver);
+		softAssert.assertTrue(homePage.isSelectAnyDataRangeToShowData(driver));
+		softAssert.assertAll();
+		log.info("Select any date range to show data. test is finish");
 	}
 
 	@AfterClass

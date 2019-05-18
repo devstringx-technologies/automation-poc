@@ -15,6 +15,9 @@ public class HomePage extends BasePage {
 	By saveButton = By.xpath("//android.widget.Button[contains(@text,'SAVE')]");
 	By addedSalary = By.xpath("//android.widget.TextView[contains(@text,'Income')]");
 	By addedExpanse = By.xpath("//android.widget.TextView[contains(@text,'Expense')]");
+	By viewMenu=By.xpath("//android.widget.TextView[contains(@text,'VIEW')]");
+	By messageOnViewMwnu=By.xpath("//android.widget.TextView[contains(@text,'Select any date range to show data.')]");
+
 
 	/**
 	 * @param driver
@@ -72,7 +75,7 @@ public class HomePage extends BasePage {
 	 * @param driver
 	 * @return
 	 */
-	public boolean isCategoriesPopupOpened(RemoteWebDriver driver) {
+	public boolean isAddIncomeShownInCategoriesModal(RemoteWebDriver driver) {
 		return driver.findElement(addIncome).isEnabled();
 	}
 
@@ -144,5 +147,13 @@ public class HomePage extends BasePage {
 	 */
 	public boolean isAddExpensePage(RemoteWebDriver driver) {
 		return driver.findElement(amountField).isEnabled();
+	}
+
+	public void clickOnView(RemoteWebDriver driver) {
+		driver.findElement(viewMenu).click();
+	}
+
+	public boolean isSelectAnyDataRangeToShowData(RemoteWebDriver driver) {
+		return driver.findElement(messageOnViewMwnu).isEnabled();
 	}
 }

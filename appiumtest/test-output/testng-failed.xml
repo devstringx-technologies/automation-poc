@@ -4,18 +4,19 @@
   <listeners>
     <listener class-name="listener.ReportListener"/>
   </listeners>
-  <test name="demo for POC(failed)">
+  <test name="IncomeTest(failed)">
     <classes>
       <class name="tests.IncomeTests">
         <methods>
           <include name="tearDown"/>
-          <include name="addSalaryAsIncomeAndVerifyThem"/>
-          <include name="verifyCategoriesList"/>
-          <include name="verifyIncomePage"/>
+          <include name="verifyTheIncomeCategoryScreenTitle"/>
+          <include name="verifyAddIncomeFeature"/>
           <include name="setUp"/>
-          <include name="verifySalaryPage"/>
+          <include name="verifyAddIncomeScreen"/>
+          <include name="VerifyAppLaunchesSuccessfully"/>
+          <include name="verifyCategoriesModal"/>
         </methods>
       </class> <!-- tests.IncomeTests -->
     </classes>
-  </test> <!-- demo for POC(failed) -->
+  </test> <!-- IncomeTest(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
